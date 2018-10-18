@@ -1,0 +1,12 @@
+body{
+    background-color: darkgray;
+    overflow: scroll;
+    margin-top: 0%;
+}
+#container{
+    margin-left: 45%;
+    margin-top:0%;
+    font-size: 25px;
+    font-family:cursive;
+    
+}

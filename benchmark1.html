@@ -1,0 +1,126 @@
+<html>
+<head>
+    <title>Benchmark1</title>
+    <link rel="stylesheet" href="css/benchmark1.css">
+    <link rel="shortcut icon" type="image/x-icon" href="exitar%20logo.png" />
+</head>
+
+<body>
+    
+    <h1 id=title>
+        <img src="exitar%20logo.png" alt="logo" width="40" height="40" >Exitar: Game Design Document
+    </h1>
+    <p id=creators> by Sujeong Yoon &amp; Regis Bafutwabo</p>
+    <h2 id="intro">INTRODUCTION</h2>
+        <p>This document describes a game called "Exitar", which is designed to be a simple, 2D side-scroller, build to enjoy a real-life exit man character. The game will use sprite-based animation, collision detection, physics, side scrolling, gravity and tiled backgrounds and 2D game techniques.</p>
+    <h2 id="tech">TECHNOLOGY</h2>
+    <p>Exitar will be developed for web browsers  with javascript enabled using Phaser game engine; which is an HTML5 game framework developed by <a href="www.photonstorm.com">Photon Storm</a>. Apple's <a href="https://itunes.apple.com/us/app/garageband/id408709785?mt=8">GarageBand</a> is an Apple's application that provide Mac and iOS users with a full-featured recording studio just at the tip of their fingers and it will be used for some of the music and sound effects of the game.For the artwork, we will use <a href="www.mapeditor.org">Tiled Map Editor</a> for creating and editing the maps of each levels, and <a href="www.piskelapp.com">Piskel</a> will be used for all the spritesheets and sprites in the game.</p>
+    <h2 id="story">BACK STORY</h2>
+    <p>Exitar works for this company in charge of finding a way out of any type of worst case scenario that could happen to any environment or building. Exitar specialization is getting through any type of disaster by finding an exit door in a certain amount of time.</p>
+    <h2 id="objective">OBJECTIVE</h2>
+    <p>Exitar's objective is to find an exit from a damaged buildings or places full of traps in a certain amount of time.Each level will have a different time based on the difficulty of the level.</p>
+    <p>If Exitar does not find the exit door, or dies before the time given is over, he will be allowed to try  again for 2 more times. However, if he finds exit door within the time given, he will go to the next level. Therefore, it is really important for Exitar to find a way out before the time is over since it is his only way to go to the next level.</p>
+    <h2 id="game">GAMEPLAY</h2>
+    <p>This is a side scroller 2D game  and Exitar, the main character will be able to jump,  crouch, and run left or right onto the surfaces and ledges during the game. He will have to pass through a series of obstacles that will try to prevent him from passing the level. </p>
+    <p>During the game, Exitar has to collect a total of 5 coins in order to buy himself 5 more seconds of the time given. Also, if he is able to catch any of the tokens, it will give him an extra life in case he uses all of his HP.</p>
+    <h2 id="ctrl">CONTROLS</h2>
+    <p> This game will be played using both a keyboard and mouse. Once started, use the following:
+    <ul><li><b>W</b> - Move Up</li>
+        <li><b>A</b> - Move Left</li>
+        <li><b>D</b> - Move Right</li>
+        <li><b>S</b> - crouching</li>
+</ul>
+        
+        
+    <h2  id="GUI">GRAPHICAL USER INTERFACE</h2>
+    <p>The GUI will be composed of: </p>
+    <ul>
+    <li><b>Splash Screen</b> - The splash screen just simply display the logo of the game on a black background when the game  is still loading before showing the Game Menu</li>
+        <li><b>Game Menu</b> - This is the main menu where the user chooses between the following options:
+        <ul><li><b>Play Game</b> - If the user clicks on this option, the game will start.</li>
+            <li><b>Levels</b> - Here the user get to choose which level he would like to play.</li>
+            <li><b>Help</b> - This will display an info screen with the game information and controls</li>
+            <li><b>About</b> - If pressed the game will display basic informations about the game authors </li></ul>
+        </li>
+        <li><b>In-Game Menu</b> - This is the menu that is displayed when the user is already playing the game and it includes:
+        <ul><li><b>Resume</b> - This option will continue the game when it is in pause state</li>
+            <li><b>Restart Game</b> - This option will restart the game when clicked</li>
+            <li><b>Levels</b> - This option will display the levels of the game and let the the user change the levels</li>
+            <li><b>Controls</b> - This option will display the control keys and their functions. </li>
+            <li><b>Quit</b> - This option will take the user to the Main Menu of the game</li></ul>
+        </li>
+        <li><b>Winning and Losing</b> - this pop-up windows will appear when the player pass a level or fail to pass a level. If he manages to pass the level, he will have an option of going to the next level or to restart the level. However, if he does not pass the level, he will only have the option of quiting the game which would take him to the main menu or an option of restarting the level.</li>
+        <p>Here below are the mock-ups of the game:</p>
+    </ul>
+    
+    
+  <div class="image">
+    <img src="loading....png" alt="Fjords" width="250" height="250">
+  <div class="desc">Splash Screen</div>
+    </div>
+    <div class="image">
+      <div>
+    <img src="menu.png" alt="menu" width="250" height="250">
+    </div>
+  <div class="desc">Menu look</div>
+    </div>
+    <div class="image">
+      <div>
+    <img src="play.png" alt="play look" width="250" height="250">
+    </div>
+  <div class="desc">Game look</div>
+    </div>
+    <div class="image">
+      <div>
+    <img src="levels.png"alt="levels" width="250" height="250">
+    </div>
+  <div class="desc">Levels</div>
+    </div>
+    <div class="image">
+      <div>
+    <img src="Help.png"alt="help menu" width="250" height="250">
+    </div>
+  <div class="desc">Levels</div>
+    </div>
+    <h2 id="art">ARTWORK</h2>
+    <p>All the artwork in the game will be original and they will be composed of: </p>
+    <ul>
+        <li><b>Exitar</b> - Exitar is a full green character who will have the following animations:
+        <ul><li>Running Left</li>
+            <li>Running Right</li>
+            <li>Jumping Right</li>
+            <li>Jumping Left</li>
+            <li>Jumping Up</li>
+            <li>Dying</li>
+            </ul></li>
+        <li><b>Obstacles</b> - During the game Exitar will meet some deadly obstacles that are there to prevent him to accomplish his mission.Their animations will be added when time permits.</li>
+        <li><b>Coins</b> - they will be some goldish coins that will help Exitar buy some time. Their animations include:
+        <ul><li>Coin Circling</li>
+            <li>Floating</li></ul>
+        </li>
+        <li><b>Tokens</b> - These objects will be in a circular form and will look like the logo.They will be a source of life for Exitar. Their animations are:
+            <ul><li>Logo Circling</li>
+            <li>Floating</li></ul>
+        </li>
+        <li><b>Exitar's Picture</b> - A small picture of Exitar will be shown on the top-left part of the game's canvas and will contains:<ul>
+        <li><b>A Health Bar</b> - It will decrease based on the amount of time Exitar dies, and will increase as he collects objects. </li></ul></li>
+        <li><b>Game Environments</b> - They will be designs with Tiled , and will look different based on the level.</li>
+        <li><b>Entry door</b> - This is the door where Exitar will be coming from when a level starts.</li>
+        <li><b>Exit door</b> - This is the door where Exitar will be getting out from when he finishes a level.</li>
+    </ul>
+    <h2 id="sound">SOUND EFFECTS</h2>
+    <p>All the sounds effect of the game will be original:</p>
+        <ul><li><b>Running</b></li>
+    <li><b>Collecting Coins</b></li>
+    <li><b>Collecting Tokens</b></li>
+    <li><b>Dying</b></li>
+    <li><b>Winning</b></li>
+            <li><b>Collision with Obstacles</b></li>
+            </ul>
+    <h2 id="music">MUSIC</h2>
+    <p>The music will be added when time allows.</p>
+    
+    <hr width="%80">
+    <p id="footnote">This website was created and managed <p id="footnote2">by Exitar's Team</p>
+    </body>
+</html>

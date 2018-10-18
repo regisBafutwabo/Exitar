@@ -1,0 +1,71 @@
+#title
+{
+    margin-left: 40%;
+}
+#creators
+{
+    margin-left: 45%;
+    font-family:serif;
+    font-weight:bold;
+}
+#intro{
+    margin-left: 45%
+}
+#tech{
+    margin-left: 45%;
+}
+#story{
+    margin-left: 45%;
+}
+
+#objective{
+    margin-left: 45%
+}
+#game{
+    margin-left: 45%;
+}
+#ctrl{
+    margin-left: 45%;
+}
+#GUI{
+    margin-left: 38%;
+}
+#sound{
+    margin-left: 45%;
+}
+#art{
+    margin: auto;
+    margin-left: 45%;
+}
+#music{
+    margin-left: 45%;
+}
+.section
+{
+    
+}
+#logo{
+    margin-top:auto;
+}
+#footnote{
+    font-size: 13px;
+    margin-left:45% 
+}
+
+#footnote2{
+    font-size: 13px;
+    margin-left:50% 
+}
+
+div.image {
+    
+    margin:auto;
+    border: solid #000000;
+   display: inline-block;
+
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
